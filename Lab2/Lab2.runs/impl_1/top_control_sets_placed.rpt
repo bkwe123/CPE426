@@ -1,0 +1,211 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Nov 14 19:35:59 2022
+| Host         : DESKTOP-JEO1C3A running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |   133 |
+|    Minimum number of control sets                        |   133 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   909 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |   133 |
+| >= 0 to < 4        |   129 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             292 |          211 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             223 |           82 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              32 |           32 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+-------------------------+------------------------+------------------+----------------+
+|               Clock Signal               |      Enable Signal      |    Set/Reset Signal    | Slice Load Count | Bel Load Count |
++------------------------------------------+-------------------------+------------------------+------------------+----------------+
+|  trng_filter/samp_2/coutner/one/Q0_FF_0  | trng_filter/samp_2/CE0  | btnC_IBUF              |                1 |              1 |
+|  trng/ro_26/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng/ro_24/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng_filter/samp_9/coutner/one/Q0_FF_0  |                         |                        |                1 |              1 |
+|  trng_filter/samp_9/coutner/one/Q0_FF_0  | trng_filter/samp_9/CE0  | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_11/coutner/one/Q0_FF_0 |                         |                        |                1 |              1 |
+|  trng_filter/samp_11/coutner/one/Q0_FF_0 | trng_filter/samp_11/CE0 | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_12/coutner/one/Q0_FF_0 |                         |                        |                1 |              1 |
+|  trng_filter/samp_12/coutner/one/Q0_FF_0 | trng_filter/samp_12/CE0 | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_13/coutner/one/Q0_FF_0 |                         |                        |                1 |              1 |
+|  trng_filter/samp_13/coutner/one/Q0_FF_0 | trng_filter/samp_13/CE0 | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_14/coutner/one/Q0_FF_0 |                         |                        |                1 |              1 |
+|  trng_filter/samp_14/coutner/one/Q0_FF_0 | trng_filter/samp_14/CE0 | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_15/coutner/one/Q0_FF_0 |                         |                        |                1 |              1 |
+|  trng_filter/samp_15/coutner/one/Q0_FF_0 | trng_filter/samp_15/CE0 | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_2/coutner/one/Q0_FF_0  |                         |                        |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__7_n_0            |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_3/coutner/one/Q0_FF_0  |                         |                        |                1 |              1 |
+|  trng_filter/samp_3/coutner/one/Q0_FF_0  | trng_filter/samp_3/CE0  | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_4/coutner/one/Q0_FF_0  |                         |                        |                1 |              1 |
+|  trng_filter/samp_4/coutner/one/Q0_FF_0  | trng_filter/samp_4/CE0  | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__10_n_0           |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__14_n_0           |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__1_n_0            |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__12_n_0           |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__2_n_0            |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__4_n_0            |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__13_n_0           |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__0_n_0            |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__11_n_0           |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__3_n_0            |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__6_n_0            |                         | btnC_IBUF              |                1 |              1 |
+|  trng/samp_7/coutner/one/Q0_FF_0         | trng/samp_7/CE0         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2_n_0               |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__8_n_0            |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__9_n_0            |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/FF_Q1_i_2__5_n_0            |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_8/coutner/one/Q0_FF_0  |                         |                        |                1 |              1 |
+|  trng_filter/samp_8/coutner/one/Q0_FF_0  | trng_filter/samp_8/CE0  | btnC_IBUF              |                1 |              1 |
+|  trng_filter/ro_26/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng_filter/ro_28/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng_filter/ro_30/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng_filter/samp_0/coutner/one/Q0_FF_0  |                         |                        |                1 |              1 |
+|  trng_filter/samp_0/coutner/one/Q0_FF_0  | trng_filter/samp_0/CE0  | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_1/coutner/one/Q0_FF_0  |                         |                        |                1 |              1 |
+|  trng_filter/samp_1/coutner/one/Q0_FF_0  | trng_filter/samp_1/CE0  | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_10/coutner/one/Q0_FF_0 |                         |                        |                1 |              1 |
+|  trng_filter/samp_10/coutner/one/Q0_FF_0 | trng_filter/samp_10/CE0 | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_5/coutner/one/Q0_FF_0  |                         |                        |                1 |              1 |
+|  trng_filter/samp_5/coutner/one/Q0_FF_0  | trng_filter/samp_5/CE0  | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_6/coutner/one/Q0_FF_0  |                         |                        |                1 |              1 |
+|  trng_filter/samp_6/coutner/one/Q0_FF_0  | trng_filter/samp_6/CE0  | btnC_IBUF              |                1 |              1 |
+|  trng_filter/samp_7/coutner/one/Q0_FF_0  |                         |                        |                1 |              1 |
+|  trng_filter/samp_7/coutner/one/Q0_FF_0  | trng_filter/samp_7/CE0  | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__14_n_0                  |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__13_n_0                  |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2_n_0                      |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__2_n_0                   |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__3_n_0                   |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__0_n_0                   |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__7_n_0                   |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__9_n_0                   |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__4_n_0                   |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__6_n_0                   |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__11_n_0                  |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__8_n_0                   |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__10_n_0                  |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__1_n_0                   |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__5_n_0                   |                         | btnC_IBUF              |                1 |              1 |
+|  trng/FF_Q1_i_2__12_n_0                  |                         | btnC_IBUF              |                1 |              1 |
+|  trng_filter/ro_2/Slice_0/Latch_0/Q      |                         |                        |                1 |              1 |
+|  trng_filter/ro_4/Slice_0/Latch_0/Q      |                         |                        |                1 |              1 |
+|  trng_filter/ro_6/Slice_0/Latch_0/Q      |                         |                        |                1 |              1 |
+|  trng_filter/ro_8/Slice_0/Latch_0/Q      |                         |                        |                1 |              1 |
+|  trng_filter/ro_10/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng_filter/ro_32/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng_filter/ro_24/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng_filter/ro_18/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng_filter/ro_20/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng_filter/ro_22/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng_filter/ro_12/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng_filter/ro_14/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng_filter/ro_16/Slice_0/Latch_0/Q     |                         |                        |                1 |              1 |
+|  trng/ro_22/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng/ro_20/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng/ro_18/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng/ro_10/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng/ro_16/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng/ro_14/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng/ro_12/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng/ro_8/Slice_0/Latch_0/Q             |                         |                        |                1 |              1 |
+|  trng/ro_6/Slice_0/Latch_0/Q             |                         |                        |                1 |              1 |
+|  trng/ro_4/Slice_0/Latch_0/Q             |                         |                        |                1 |              1 |
+|  trng/ro_2/Slice_0/Latch_0/Q             |                         |                        |                1 |              1 |
+|  trng/ro_32/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng/ro_30/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng/samp_8/coutner/one/Q0_FF_0         |                         |                        |                1 |              1 |
+|  trng/samp_8/coutner/one/Q0_FF_0         | trng/samp_8/CE0         | btnC_IBUF              |                1 |              1 |
+|  trng/ro_28/Slice_0/Latch_0/Q            |                         |                        |                1 |              1 |
+|  trng/samp_0/coutner/one/Q0_FF_0         |                         |                        |                1 |              1 |
+|  trng/samp_0/coutner/one/Q0_FF_0         | trng/samp_0/CE0         | btnC_IBUF              |                1 |              1 |
+|  trng/samp_1/coutner/one/Q0_FF_0         |                         |                        |                1 |              1 |
+|  trng/samp_1/coutner/one/Q0_FF_0         | trng/samp_1/CE0         | btnC_IBUF              |                1 |              1 |
+|  trng/samp_10/coutner/one/Q0_FF_0        |                         |                        |                1 |              1 |
+|  trng/samp_10/coutner/one/Q0_FF_0        | trng/samp_10/CE0        | btnC_IBUF              |                1 |              1 |
+|  trng/samp_11/coutner/one/Q0_FF_0        |                         |                        |                1 |              1 |
+|  trng/samp_11/coutner/one/Q0_FF_0        | trng/samp_11/CE0        | btnC_IBUF              |                1 |              1 |
+|  trng/samp_12/coutner/one/Q0_FF_0        |                         |                        |                1 |              1 |
+|  trng/samp_12/coutner/one/Q0_FF_0        | trng/samp_12/CE0        | btnC_IBUF              |                1 |              1 |
+|  trng/samp_13/coutner/one/Q0_FF_0        |                         |                        |                1 |              1 |
+|  trng/samp_13/coutner/one/Q0_FF_0        | trng/samp_13/CE0        | btnC_IBUF              |                1 |              1 |
+|  trng/samp_14/coutner/one/Q0_FF_0        |                         |                        |                1 |              1 |
+|  trng/samp_14/coutner/one/Q0_FF_0        | trng/samp_14/CE0        | btnC_IBUF              |                1 |              1 |
+|  trng/samp_15/coutner/one/Q0_FF_0        |                         |                        |                1 |              1 |
+|  trng/samp_15/coutner/one/Q0_FF_0        | trng/samp_15/CE0        | btnC_IBUF              |                1 |              1 |
+|  trng/samp_2/coutner/one/Q0_FF_0         |                         |                        |                1 |              1 |
+|  trng/samp_2/coutner/one/Q0_FF_0         | trng/samp_2/CE0         | btnC_IBUF              |                1 |              1 |
+|  trng/samp_3/coutner/one/Q0_FF_0         |                         |                        |                1 |              1 |
+|  trng/samp_3/coutner/one/Q0_FF_0         | trng/samp_3/CE0         | btnC_IBUF              |                1 |              1 |
+|  trng/samp_4/coutner/one/Q0_FF_0         |                         |                        |                1 |              1 |
+|  trng/samp_4/coutner/one/Q0_FF_0         | trng/samp_4/CE0         | btnC_IBUF              |                1 |              1 |
+|  trng/samp_5/coutner/one/Q0_FF_0         |                         |                        |                1 |              1 |
+|  trng/samp_5/coutner/one/Q0_FF_0         | trng/samp_5/CE0         | btnC_IBUF              |                1 |              1 |
+|  trng/samp_6/coutner/one/Q0_FF_0         |                         |                        |                1 |              1 |
+|  trng/samp_6/coutner/one/Q0_FF_0         | trng/samp_6/CE0         | btnC_IBUF              |                1 |              1 |
+|  trng/samp_9/coutner/one/Q0_FF_0         |                         |                        |                1 |              1 |
+|  trng/samp_9/coutner/one/Q0_FF_0         | trng/samp_9/CE0         | btnC_IBUF              |                1 |              1 |
+|  trng/samp_7/coutner/one/Q0_FF_0         |                         |                        |                1 |              1 |
+|  Display/my_clk/CLK                      |                         |                        |                1 |              2 |
+|  clkin_IBUF_BUFG                         |                         | Display/my_clk/tmp_clk |                8 |             31 |
+|  clkin_IBUF_BUFG                         |                         |                        |               10 |             34 |
+|  clkin_IBUF_BUFG                         |                         | btnC_IBUF              |               42 |            160 |
+|                                          |                         |                        |              136 |            192 |
++------------------------------------------+-------------------------+------------------------+------------------+----------------+
+
+

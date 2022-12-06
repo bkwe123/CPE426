@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Brandon Kwe/CPE426/CPE426_Lab1/Lab1.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Brandon Kwe/CPE426/CPE426_Lab1/Lab1.srcs/sim_1/new/Conf_RO_sim.sv,1665522970,systemVerilog,,,,Conf_RO_sim,,,,,,,,
+C:/Users/Brandon Kwe/CPE426/CPE426_Lab1/Lab1.srcs/sources_1/new/Conf_RO.sv,1665522884,systemVerilog,,C:/Users/Brandon Kwe/CPE426/CPE426_Lab1/Lab1.srcs/sources_1/new/Enable_LUT.sv,,Conf_RO,,,,,,,,
+C:/Users/Brandon Kwe/CPE426/CPE426_Lab1/Lab1.srcs/sources_1/new/Enable_LUT.sv,1665092520,systemVerilog,,C:/Users/Brandon Kwe/CPE426/CPE426_Lab1/Lab1.srcs/sources_1/new/LUT.sv,,Enable_LUT,,,,,,,,
+C:/Users/Brandon Kwe/CPE426/CPE426_Lab1/Lab1.srcs/sources_1/new/Enable_Slice.v,1665524025,verilog,,,,Enable_Slice,,,,,,,,
+C:/Users/Brandon Kwe/CPE426/CPE426_Lab1/Lab1.srcs/sources_1/new/LUT.sv,1665523782,systemVerilog,,C:/Users/Brandon Kwe/CPE426/CPE426_Lab1/Lab1.srcs/sources_1/new/Slice.sv,,LUT,,,,,,,,
+C:/Users/Brandon Kwe/CPE426/CPE426_Lab1/Lab1.srcs/sources_1/new/Slice.sv,1665522423,systemVerilog,,C:/Users/Brandon Kwe/CPE426/CPE426_Lab1/Lab1.srcs/sim_1/new/Conf_RO_sim.sv,,Slice,,,,,,,,

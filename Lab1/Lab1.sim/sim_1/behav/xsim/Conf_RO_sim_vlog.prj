@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab1.srcs/sources_1/new/Enable_Slice.v" \
+
+sv xil_defaultlib  \
+"../../../../Lab1.srcs/sources_1/new/Conf_RO.sv" \
+"../../../../Lab1.srcs/sources_1/new/Enable_LUT.sv" \
+"../../../../Lab1.srcs/sources_1/new/LUT.sv" \
+"../../../../Lab1.srcs/sources_1/new/Slice.sv" \
+"../../../../Lab1.srcs/sim_1/new/Conf_RO_sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

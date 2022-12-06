@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sim_1/new/state_machine.sv,1668648944,systemVerilog,,,,state_machine,,,,,,,,
+C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Lab1_Provided_Code/sseg_des.vhd,1665612173,vhdl,,,,clk_div;sseg_des,,,,,,,,
+C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/new/edgeDetector.v,1668649102,verilog,,,,edgeDetector,,,,,,,,
+C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/new/Root_SM.sv,1668670445,systemVerilog,,C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sim_1/new/state_machine.sv,,Root_SM,,,,,,,,
+C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/new/Top.sv,1668646270,systemVerilog,,,,Top,,,,,,,,

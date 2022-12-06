@@ -1,0 +1,152 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Nov  3 10:21:46 2022
+| Host         : DESKTOP-JEO1C3A running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    74 |
+|    Minimum number of control sets                        |    74 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    31 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    74 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    68 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              26 |           18 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              49 |           14 |
+| Yes          | No                    | No                     |            2048 |         1058 |
+| Yes          | No                    | Yes                    |             302 |           69 |
+| Yes          | Yes                   | No                     |             256 |           97 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------+-----------------------------------------------+--------------------------------+------------------+----------------+
+|     Clock Signal    |                 Enable Signal                 |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
++---------------------+-----------------------------------------------+--------------------------------+------------------+----------------+
+|  Display/my_clk/CLK |                                               |                                |                1 |              2 |
+|  clkin_IBUF_BUFG    |                                               | ED_0/in0                       |                3 |              8 |
+|  mux/out            |                                               | ED_0/in0                       |                3 |             10 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/state                        | ED_0/in0                       |                7 |             11 |
+|                     |                                               |                                |               11 |             12 |
+|  clkin_IBUF_BUFG    |                                               |                                |                6 |             12 |
+|  clkin_IBUF_BUFG    |                                               | Display/my_clk/tmp_clk         |                8 |             31 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[6][31]_i_1_n_0             |                                |               18 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[0][31]_i_1_n_0             |                                |               11 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[20][31]_i_1_n_0            |                                |               13 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[12][31]_i_1_n_0            |                                |               11 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[21][31]_i_1_n_0            |                                |               15 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[16][31]_i_1_n_0            |                                |               16 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[17][31]_i_1_n_0            |                                |               18 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[22][31]_i_1_n_0            |                                |               15 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[13][31]_i_1_n_0            |                                |               13 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[14][31]_i_1_n_0            |                                |               13 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[23][31]_i_1_n_0            |                                |               14 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[11][31]_i_1_n_0            |                                |                8 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[10][31]_i_1_n_0            |                                |               12 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[15][31]_i_1_n_0            |                                |               13 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[19][31]_i_1_n_0            |                                |               14 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[24][31]_i_1_n_0            |                                |               22 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[18][31]_i_1_n_0            |                                |               12 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[1][31]_i_1_n_0             |                                |               15 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[48][31]_i_1_n_0            |                                |               16 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[49][31]_i_1_n_0            |                                |               16 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[36][31]_i_1_n_0            |                                |               14 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[30][31]_i_1_n_0            |                                |               15 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[32][31]_i_1_n_0            |                                |               14 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[39][31]_i_1_n_0            |                                |               19 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[44][31]_i_1_n_0            |                                |               18 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[46][31]_i_1_n_0            |                                |               15 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[4][31]_i_1_n_0             |                                |               17 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[50][31]_i_1_n_0            |                                |               18 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[51][31]_i_1_n_0            |                                |               16 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[53][31]_i_1_n_0            |                                |               19 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[54][31]_i_1_n_0            |                                |               20 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[29][31]_i_1_n_0            |                                |               23 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[55][31]_i_1_n_0            |                                |               17 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[56][31]_i_1_n_0            |                                |               19 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[34][31]_i_1_n_0            |                                |               15 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[59][31]_i_1_n_0            |                                |               20 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[60][31]_i_1_n_0            |                                |               21 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[31][31]_i_1_n_0            |                                |               15 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[33][31]_i_1_n_0            |                                |               14 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[38][31]_i_1_n_0            |                                |               16 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[41][31]_i_1_n_0            |                                |               15 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[35][31]_i_1_n_0            |                                |               11 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[52][31]_i_1_n_0            |                                |               17 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[26][31]_i_1_n_0            |                                |               17 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[27][31]_i_1_n_0            |                                |               14 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[42][31]_i_1_n_0            |                                |               17 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[47][31]_i_1_n_0            |                                |               18 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[3][31]_i_1_n_0             |                                |               15 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[57][31]_i_1_n_0            |                                |               18 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[58][31]_i_1_n_0            |                                |               18 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[5][31]_i_1_n_0             |                                |               18 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[28][31]_i_1_n_0            |                                |               18 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[25][31]_i_1_n_0            |                                |               13 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[2][31]_i_1_n_0             |                                |               14 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[37][31]_i_1_n_0            |                                |               17 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[40][31]_i_1_n_0            |                                |               22 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[45][31]_i_1_n_0            |                                |               26 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[43][31]_i_1_n_0            |                                |               14 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[63][31]_i_1_n_0            |                                |               21 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[62][31]_i_1_n_0            |                                |               18 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[9][31]_i_1_n_0             |                                |               25 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[61][31]_i_1_n_0            |                                |               19 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[8][31]_i_1_n_0             |                                |               24 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/W[7][31]_i_1_n_0             |                                |               19 |             32 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/current_iteration[5]_i_1_n_0 | ED_0/in0                       |               18 |             35 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/h6[31]_i_1_n_0               | ED_0/in0                       |               44 |            256 |
+|  clkin_IBUF_BUFG    | hash/sha256_comp/a[31]_i_2_n_0                | hash/sha256_comp/a[31]_i_1_n_0 |               97 |            256 |
++---------------------+-----------------------------------------------+--------------------------------+------------------+----------------+
+
+

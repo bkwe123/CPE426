@@ -1,0 +1,1533 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov 29 14:20:32 2022
+# Process ID: 7612
+# Current directory: C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.runs/synth_1
+# Command line: vivado.exe -log controller.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source controller.tcl
+# Log file: C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.runs/synth_1/controller.vds
+# Journal file: C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source controller.tcl -notrace
+Command: synth_design -top controller -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24784 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 720.270 ; gain = 177.922
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'controller' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:390]
+INFO: [Synth 8-6157] synthesizing module 'PUF' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:483]
+INFO: [Synth 8-6157] synthesizing module 'FSM' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:545]
+INFO: [Synth 8-6157] synthesizing module 'STANDARD_DEC_4BITOUT' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:697]
+INFO: [Synth 8-6155] done synthesizing module 'STANDARD_DEC_4BITOUT' (1#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:697]
+INFO: [Synth 8-6157] synthesizing module 'RO' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:666]
+INFO: [Synth 8-6157] synthesizing module 'SLICE' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:308]
+INFO: [Synth 8-6157] synthesizing module 'SUBSLICE' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:714]
+INFO: [Synth 8-6157] synthesizing module 'MUX2TO1' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2TO1' (2#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'SUBSLICE' (3#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:714]
+INFO: [Synth 8-6157] synthesizing module 'LATCH' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:472]
+INFO: [Synth 8-6155] done synthesizing module 'LATCH' (4#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:472]
+INFO: [Synth 8-6155] done synthesizing module 'SLICE' (5#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:308]
+INFO: [Synth 8-6155] done synthesizing module 'RO' (6#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:666]
+INFO: [Synth 8-6157] synthesizing module 'MUX4TO2' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:288]
+INFO: [Synth 8-6155] done synthesizing module 'MUX4TO2' (7#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:288]
+INFO: [Synth 8-6157] synthesizing module 'COUNTER' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:455]
+INFO: [Synth 8-6155] done synthesizing module 'COUNTER' (8#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:455]
+INFO: [Synth 8-6155] done synthesizing module 'FSM' (9#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:545]
+INFO: [Synth 8-6155] done synthesizing module 'PUF' (10#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:483]
+INFO: [Synth 8-6157] synthesizing module 'reg_file' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:637]
+INFO: [Synth 8-6155] done synthesizing module 'reg_file' (11#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:637]
+INFO: [Synth 8-6157] synthesizing module 'SevSegDisp' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:358]
+INFO: [Synth 8-6157] synthesizing module 'BCD' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:38]
+INFO: [Synth 8-6155] done synthesizing module 'BCD' (12#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:38]
+INFO: [Synth 8-6157] synthesizing module 'CathodeDriver' [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:116]
+INFO: [Synth 8-226] default block is never used [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:140]
+INFO: [Synth 8-226] default block is never used [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:143]
+INFO: [Synth 8-226] default block is never used [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:165]
+INFO: [Synth 8-226] default block is never used [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:187]
+INFO: [Synth 8-226] default block is never used [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:209]
+INFO: [Synth 8-6155] done synthesizing module 'CathodeDriver' (13#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:116]
+INFO: [Synth 8-6155] done synthesizing module 'SevSegDisp' (14#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:358]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (15#1) [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:390]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 784.820 ; gain = 242.473
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 784.820 ; gain = 242.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 784.820 ; gain = 242.473
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/constrs_1/imports/constraints/Basys3Constraints.xdc]
+Finished Parsing XDC File [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/constrs_1/imports/constraints/Basys3Constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/constrs_1/imports/constraints/Basys3Constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/controller_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/controller_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 908.496 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 908.496 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 908.496 ; gain = 366.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 908.496 ; gain = 366.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 908.496 ; gain = 366.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 908.496 ; gain = 366.148
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 34    
+	   2 Input      3 Bit       Adders := 7     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 17    
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 2     
+	  19 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 30    
+	   2 Input      3 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 33    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module controller 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module STANDARD_DEC_4BITOUT 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+Module MUX4TO2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 1     
+Module FSM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module PUF 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module reg_file 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 16    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 32    
+Module BCD 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 34    
+	   2 Input      3 Bit       Adders := 7     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 30    
+	   2 Input      3 Bit        Muxes := 4     
+Module CathodeDriver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  19 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+Module SevSegDisp 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'puf/PREV_CHAL_reg[6]' (FDE) to 'puf/PREV_CHAL_reg[2]'
+INFO: [Synth 8-3886] merging instance 'puf/PREV_CHAL_reg[7]' (FDE) to 'puf/PREV_CHAL_reg[3]'
+INFO: [Synth 8-3886] merging instance 'puf/PREV_CHAL_reg[0]' (FDE) to 'puf/PREV_CHAL_reg[4]'
+INFO: [Synth 8-3886] merging instance 'puf/PREV_CHAL_reg[1]' (FDE) to 'puf/PREV_CHAL_reg[5]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 908.496 ; gain = 366.148
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 908.496 ; gain = 366.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_IN[1]
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN00_inferred/MUX2TO1_IN00
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN00_inferred/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_IN[1]
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN00_inferred/MUX2TO1_IN00
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN00_inferred/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_IN[1]
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN00_inferred/MUX2TO1_IN00
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN00_inferred/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/MUX2TO1_IN10
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/MUX2TO1_IN10_inferred/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_2/SUBSLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_IN[1]
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SLICE_MUX_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/EN_MUX/R1_inferred/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/LUT_MUX/R1_inferred/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN00_inferred/MUX2TO1_IN00
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN00_inferred/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferred/MUX2TO1_OUT
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferred/i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferred/i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferred/i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferred/i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferred/i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferred/i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferred/i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferred/i_1/O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/i_0' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/i_0' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/i_0' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/MUX2TO1_IN10_inferred/i_0' with timing assertions on output pin 'O'
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 951.426 ; gain = 409.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\REG_FILE/register_reg[0][15] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\DISP/CathMod/CATHODES_reg[7] )
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+INFO: [Synth 8-620] skipping inversion-propagation across instance '\puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/i_1' with timing assertions on output pin 'O'
+Found timing loop:
+     0: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+     1: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+     2: \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     3: \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+     4: \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+     5: \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+     6: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+     7: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+     8: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+     9: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    10: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/i_0/O (LUT1)
+    11: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+    12: \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/i_0/O (LUT3)
+    13: \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    14: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    15: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    16: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    17: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    18: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/i_0/O (LUT1)
+    19: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+    20: \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+    21: \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+    22: \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+    23: \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    24: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    25: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    26: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    27: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    28: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+Inferred a: "set_disable_timing -from I0 -to O \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/i_0"
+Found timing loop:
+     0: \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     1: \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+     2: \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+     3: \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+     4: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+     5: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+     6: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+     7: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+     8: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/i_0/O (LUT1)
+     9: \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX1Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+    10: \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/i_0/O (LUT3)
+    11: \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    12: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    13: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    14: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    15: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    16: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/i_0/O (LUT1)
+    17: \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX0Y0/SLICE_IN[0]
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+    18: \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+    19: \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+    20: \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+    21: \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    22: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    23: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    24: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    25: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    26: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+    27: \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+Inferred a: "set_disable_timing -from I1 -to O \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_2"
+Found timing loop:
+     0: \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     1: \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+Found timing loop:
+     0: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+     1: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+     2: \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     3: \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+     4: \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+     5: \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+     6: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+     7: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+     8: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+     9: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    10: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/i_0/O (LUT1)
+    11: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+    12: \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/i_0/O (LUT3)
+    13: \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    14: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    15: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    16: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    17: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    18: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/i_0/O (LUT1)
+    19: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+    20: \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+    21: \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+    22: \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+    23: \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    24: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    25: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    26: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    27: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    28: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+Inferred a: "set_disable_timing -from I0 -to O \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/i_0"
+Found timing loop:
+     0: \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     1: \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+     2: \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+     3: \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+     4: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+     5: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+     6: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+     7: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+     8: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/i_0/O (LUT1)
+     9: \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX1Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+    10: \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/i_0/O (LUT3)
+    11: \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    12: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    13: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    14: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    15: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    16: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/i_0/O (LUT1)
+    17: \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX0Y0/SLICE_IN[0]
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+    18: \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+    19: \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+    20: \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+    21: \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    22: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    23: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    24: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    25: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    26: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+    27: \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+Inferred a: "set_disable_timing -from I1 -to O \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_2"
+Found timing loop:
+     0: \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     1: \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+Found timing loop:
+     0: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+     1: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+     2: \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     3: \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+     4: \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+     5: \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+     6: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+     7: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+     8: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+     9: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    10: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/i_0/O (LUT1)
+    11: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+    12: \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/i_0/O (LUT3)
+    13: \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    14: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    15: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    16: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    17: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    18: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/i_0/O (LUT1)
+    19: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+    20: \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+    21: \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+    22: \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+    23: \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    24: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    25: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    26: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    27: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    28: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+Inferred a: "set_disable_timing -from I0 -to O \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/i_0"
+Found timing loop:
+     0: \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     1: \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+     2: \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+     3: \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+     4: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+     5: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+     6: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+     7: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+     8: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/i_0/O (LUT1)
+     9: \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX1Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+    10: \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/i_0/O (LUT3)
+    11: \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    12: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    13: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    14: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    15: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    16: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/i_0/O (LUT1)
+    17: \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX0Y0/SLICE_IN[0]
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+    18: \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+    19: \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+    20: \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+    21: \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    22: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    23: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    24: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    25: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    26: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+    27: \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+Inferred a: "set_disable_timing -from I1 -to O \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_2"
+Found timing loop:
+     0: \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     1: \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+Found timing loop:
+     0: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+     1: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/MUX2TO1_OUT
+     2: \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     3: \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+     4: \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+     5: \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+     6: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+     7: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+     8: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+     9: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    10: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/i_0/O (LUT1)
+    11: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+    12: \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/i_0/O (LUT3)
+    13: \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    14: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    15: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    16: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    17: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    18: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/i_0/O (LUT1)
+    19: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+    20: \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+    21: \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+    22: \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+    23: \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    24: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    25: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    26: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    27: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    28: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+Inferred a: "set_disable_timing -from I0 -to O \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/i_0"
+Found timing loop:
+     0: \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     1: \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+     2: \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+     3: \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+     4: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+     5: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+     6: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+     7: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+     8: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/i_0/O (LUT1)
+     9: \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX1Y1/SLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/MUX2TO1_OUT
+    10: \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/i_0/O (LUT3)
+    11: \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    12: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    13: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    14: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    15: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    16: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/i_0/O (LUT1)
+    17: \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/i_0/I0 (LUT1)
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SUBSLICE_1/SUBSLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX0Y0/SLICE_IN[0]
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SLICE_LATCH_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SLICE_LATCH/OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SLICE_LATCH/IN
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/MUX2TO1_OUT
+    18: \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+    19: \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferredi_2/I1 (LUT2)
+    20: \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferredi_1/O (LUT2)
+    21: \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/R1_inferredi_1/I0 (LUT2)
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/LUT_MUX/MUX2TO1_IN0
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/SUBSLICE_OUT
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_OUT
+    22: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/O (LUT3)
+    23: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/EN_MUX/i_0/I0 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/EN_MUX/MUX2TO1_IN1
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_OUT
+    24: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/O (LUT3)
+    25: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/LUT_MUX/i_0/I2 (LUT3)
+      : \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/LUT_MUX/MUX2TO1_IN0
+    26: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+    27: \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/i_0/O (LUT1)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+Inferred a: "set_disable_timing -from I1 -to O \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_2"
+Found timing loop:
+     0: \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+     1: \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_2/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.srcs/sources_1/new/combined.sv:3]
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO0/SLICEX1Y1/LUT_MUX/R1_inferredi_0/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO1/SLICEX1Y1/LUT_MUX/R1_inferredi_0/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO2/SLICEX1Y1/LUT_MUX/R1_inferredi_0/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO3/SLICEX1Y1/LUT_MUX/R1_inferredi_0/O'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 951.426 ; gain = 409.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 952.328 ; gain = 409.980
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 952.328 ; gain = 409.980
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_2/LUT_MUX_i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO0/SLICEX0Y1/SUBSLICE_1/LUT_MUX_i_2/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_2/LUT_MUX_i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO1/SLICEX0Y1/SUBSLICE_1/LUT_MUX_i_2/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_2/LUT_MUX_i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO2/SLICEX0Y1/SUBSLICE_1/LUT_MUX_i_2/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_2/LUT_MUX_i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \puf/PUF_FSM /RO3/SLICEX0Y1/SUBSLICE_1/LUT_MUX_i_2/O'
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 952.328 ; gain = 409.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 952.328 ; gain = 409.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 952.328 ; gain = 409.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 952.328 ; gain = 409.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    27|
+|3     |LUT1   |    53|
+|4     |LUT2   |     5|
+|5     |LUT3   |    61|
+|6     |LUT4   |    19|
+|7     |LUT5   |    64|
+|8     |LUT6   |   146|
+|9     |MUXF7  |    71|
+|10    |MUXF8  |    20|
+|11    |FDRE   |   354|
+|12    |FDSE   |     3|
+|13    |IBUF   |    22|
+|14    |OBUF   |    28|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------+--------------+------+
+|      |Instance              |Module        |Cells |
++------+----------------------+--------------+------+
+|1     |top                   |              |   874|
+|2     |  DISP                |SevSegDisp    |    54|
+|3     |    CathMod           |CathodeDriver |    54|
+|4     |  REG_FILE            |reg_file      |   532|
+|5     |  puf                 |PUF           |   217|
+|6     |    PUF_FSM           |FSM           |   205|
+|7     |      RO0             |RO__4         |    27|
+|8     |        SLICEX0Y1     |SLICE__16     |     9|
+|9     |          SUBSLICE_1  |SUBSLICE__22  |     4|
+|10    |            LUT_MUX   |MUX2TO1__48   |     1|
+|11    |            EN_MUX    |MUX2TO1__47   |     1|
+|12    |          SUBSLICE_2  |SUBSLICE__21  |     4|
+|13    |            LUT_MUX   |MUX2TO1__46   |     1|
+|14    |            EN_MUX    |MUX2TO1__45   |     1|
+|15    |          LUT_MUX     |MUX2TO1__44   |     1|
+|16    |          SLICE_LATCH |LATCH__16     |     0|
+|17    |        SLICEX0Y0     |SLICE__15     |     9|
+|18    |          SUBSLICE_1  |SUBSLICE__20  |     4|
+|19    |            LUT_MUX   |MUX2TO1__43   |     1|
+|20    |            EN_MUX    |MUX2TO1__42   |     1|
+|21    |          SUBSLICE_2  |SUBSLICE__19  |     4|
+|22    |            LUT_MUX   |MUX2TO1__41   |     1|
+|23    |            EN_MUX    |MUX2TO1__40   |     1|
+|24    |          LUT_MUX     |MUX2TO1__39   |     1|
+|25    |          SLICE_LATCH |LATCH__15     |     0|
+|26    |        SLICEX1Y1     |SLICE__14     |     9|
+|27    |          SUBSLICE_1  |SUBSLICE__18  |     4|
+|28    |            LUT_MUX   |MUX2TO1__38   |     1|
+|29    |            EN_MUX    |MUX2TO1__37   |     1|
+|30    |          SUBSLICE_2  |SUBSLICE__17  |     4|
+|31    |            LUT_MUX   |MUX2TO1__36   |     1|
+|32    |            EN_MUX    |MUX2TO1__35   |     1|
+|33    |          LUT_MUX     |MUX2TO1__34   |     1|
+|34    |          SLICE_LATCH |LATCH__14     |     0|
+|35    |      RO1             |RO__5         |    27|
+|36    |        SLICEX0Y1     |SLICE__19     |     9|
+|37    |          SUBSLICE_1  |SUBSLICE__28  |     4|
+|38    |            LUT_MUX   |MUX2TO1__63   |     1|
+|39    |            EN_MUX    |MUX2TO1__62   |     1|
+|40    |          SUBSLICE_2  |SUBSLICE__27  |     4|
+|41    |            LUT_MUX   |MUX2TO1__61   |     1|
+|42    |            EN_MUX    |MUX2TO1__60   |     1|
+|43    |          LUT_MUX     |MUX2TO1__59   |     1|
+|44    |          SLICE_LATCH |LATCH__19     |     0|
+|45    |        SLICEX0Y0     |SLICE__18     |     9|
+|46    |          SUBSLICE_1  |SUBSLICE__26  |     4|
+|47    |            LUT_MUX   |MUX2TO1__58   |     1|
+|48    |            EN_MUX    |MUX2TO1__57   |     1|
+|49    |          SUBSLICE_2  |SUBSLICE__25  |     4|
+|50    |            LUT_MUX   |MUX2TO1__56   |     1|
+|51    |            EN_MUX    |MUX2TO1__55   |     1|
+|52    |          LUT_MUX     |MUX2TO1__54   |     1|
+|53    |          SLICE_LATCH |LATCH__18     |     0|
+|54    |        SLICEX1Y1     |SLICE__17     |     9|
+|55    |          SUBSLICE_1  |SUBSLICE__24  |     4|
+|56    |            LUT_MUX   |MUX2TO1__53   |     1|
+|57    |            EN_MUX    |MUX2TO1__52   |     1|
+|58    |          SUBSLICE_2  |SUBSLICE__23  |     4|
+|59    |            LUT_MUX   |MUX2TO1__51   |     1|
+|60    |            EN_MUX    |MUX2TO1__50   |     1|
+|61    |          LUT_MUX     |MUX2TO1__49   |     1|
+|62    |          SLICE_LATCH |LATCH__17     |     0|
+|63    |      RO2             |RO__6         |    27|
+|64    |        SLICEX0Y1     |SLICE__22     |     9|
+|65    |          SUBSLICE_1  |SUBSLICE__34  |     4|
+|66    |            LUT_MUX   |MUX2TO1__78   |     1|
+|67    |            EN_MUX    |MUX2TO1__77   |     1|
+|68    |          SUBSLICE_2  |SUBSLICE__33  |     4|
+|69    |            LUT_MUX   |MUX2TO1__76   |     1|
+|70    |            EN_MUX    |MUX2TO1__75   |     1|
+|71    |          LUT_MUX     |MUX2TO1__74   |     1|
+|72    |          SLICE_LATCH |LATCH__22     |     0|
+|73    |        SLICEX0Y0     |SLICE__21     |     9|
+|74    |          SUBSLICE_1  |SUBSLICE__32  |     4|
+|75    |            LUT_MUX   |MUX2TO1__73   |     1|
+|76    |            EN_MUX    |MUX2TO1__72   |     1|
+|77    |          SUBSLICE_2  |SUBSLICE__31  |     4|
+|78    |            LUT_MUX   |MUX2TO1__71   |     1|
+|79    |            EN_MUX    |MUX2TO1__70   |     1|
+|80    |          LUT_MUX     |MUX2TO1__69   |     1|
+|81    |          SLICE_LATCH |LATCH__21     |     0|
+|82    |        SLICEX1Y1     |SLICE__20     |     9|
+|83    |          SUBSLICE_1  |SUBSLICE__30  |     4|
+|84    |            LUT_MUX   |MUX2TO1__68   |     1|
+|85    |            EN_MUX    |MUX2TO1__67   |     1|
+|86    |          SUBSLICE_2  |SUBSLICE__29  |     4|
+|87    |            LUT_MUX   |MUX2TO1__66   |     1|
+|88    |            EN_MUX    |MUX2TO1__65   |     1|
+|89    |          LUT_MUX     |MUX2TO1__64   |     1|
+|90    |          SLICE_LATCH |LATCH__20     |     0|
+|91    |      RO3             |RO            |    27|
+|92    |        SLICEX0Y1     |SLICE__12     |     9|
+|93    |          SUBSLICE_1  |SUBSLICE__14  |     4|
+|94    |            LUT_MUX   |MUX2TO1__28   |     1|
+|95    |            EN_MUX    |MUX2TO1__27   |     1|
+|96    |          SUBSLICE_2  |SUBSLICE__13  |     4|
+|97    |            LUT_MUX   |MUX2TO1__26   |     1|
+|98    |            EN_MUX    |MUX2TO1__25   |     1|
+|99    |          LUT_MUX     |MUX2TO1__24   |     1|
+|100   |          SLICE_LATCH |LATCH__12     |     0|
+|101   |        SLICEX0Y0     |SLICE__13     |     9|
+|102   |          SUBSLICE_1  |SUBSLICE__16  |     4|
+|103   |            LUT_MUX   |MUX2TO1__33   |     1|
+|104   |            EN_MUX    |MUX2TO1__32   |     1|
+|105   |          SUBSLICE_2  |SUBSLICE__15  |     4|
+|106   |            LUT_MUX   |MUX2TO1__31   |     1|
+|107   |            EN_MUX    |MUX2TO1__30   |     1|
+|108   |          LUT_MUX     |MUX2TO1__29   |     1|
+|109   |          SLICE_LATCH |LATCH__13     |     0|
+|110   |        SLICEX1Y1     |SLICE         |     9|
+|111   |          SUBSLICE_1  |SUBSLICE__12  |     4|
+|112   |            LUT_MUX   |MUX2TO1__23   |     1|
+|113   |            EN_MUX    |MUX2TO1__22   |     1|
+|114   |          SUBSLICE_2  |SUBSLICE      |     4|
+|115   |            LUT_MUX   |MUX2TO1__20   |     1|
+|116   |            EN_MUX    |MUX2TO1__21   |     1|
+|117   |          LUT_MUX     |MUX2TO1       |     1|
+|118   |          SLICE_LATCH |LATCH         |     0|
+|119   |      RO_MUX          |MUX4TO2       |     1|
+|120   |      RO_COUNTER      |COUNTER       |    34|
+|121   |      STD_COUNTER     |COUNTER_0     |    62|
++------+----------------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 952.328 ; gain = 409.980
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 12 critical warnings and 20 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 952.328 ; gain = 286.305
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 952.328 ; gain = 409.980
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 118 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 952.328 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+88 Infos, 20 Warnings, 12 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 952.328 ; gain = 651.836
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 952.328 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Brandon Kwe/CPE426/Find_Trojan/Find_Trojan.runs/synth_1/controller.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file controller_utilization_synth.rpt -pb controller_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 29 14:21:09 2022...

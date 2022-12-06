@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Trojan.srcs/sources_1/imports/new/edgeDetector.v" \
+
+sv xil_defaultlib  \
+"../../../../Trojan.srcs/sources_1/new/Root_SM.sv" \
+"../../../../Trojan.srcs/sources_1/new/Top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

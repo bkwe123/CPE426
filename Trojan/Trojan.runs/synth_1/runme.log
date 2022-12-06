@@ -1,0 +1,436 @@
+
+*** Running vivado
+    with args -log Top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source Top.tcl -notrace
+Command: synth_design -top Top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6368 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 719.688 ; gain = 177.695
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/new/Top.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'edgeDetector' [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/new/edgeDetector.v:23]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:13664]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (1#1) [C:/Xilinx/Vivado/2019.1/scripts/rt/data/unisim_comp.v:13664]
+WARNING: [Synth 8-7023] instance 'FF_Q0' of module 'FDRE' has 5 connections declared, but only 4 given [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/new/edgeDetector.v:29]
+WARNING: [Synth 8-7023] instance 'FF_Q1' of module 'FDRE' has 5 connections declared, but only 4 given [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/new/edgeDetector.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'edgeDetector' (2#1) [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/new/edgeDetector.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Root_SM' [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/new/Root_SM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'Root_SM' (3#1) [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/new/Root_SM.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'Adress_Decoder' [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/new/Address_Decoder.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'Adress_Decoder' (4#1) [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/new/Address_Decoder.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'countUD4L' [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/new/countUD4L.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2to1x4' [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/new/mux2to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux2to1x4' (5#1) [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/new/mux2to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'countUD4L' (6#1) [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/new/countUD4L.v:23]
+INFO: [Synth 8-6157] synthesizing module 'reg_file' [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Downloads/reg_file.sv:10]
+INFO: [Synth 8-6155] done synthesizing module 'reg_file' (7#1) [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Downloads/reg_file.sv:10]
+WARNING: [Synth 8-7023] instance 'RF' of module 'reg_file' has 9 connections declared, but only 8 given [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/new/Top.sv:57]
+INFO: [Synth 8-638] synthesizing module 'sseg_des' [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Lab1_Provided_Code/sseg_des.vhd:54]
+INFO: [Synth 8-3491] module 'clk_div' declared at 'C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Lab1_Provided_Code/sseg_des.vhd:138' bound to instance 'my_clk' of component 'clk_div' [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Lab1_Provided_Code/sseg_des.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Lab1_Provided_Code/sseg_des.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (8#1) [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Lab1_Provided_Code/sseg_des.vhd:143]
+INFO: [Synth 8-226] default block is never used [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Lab1_Provided_Code/sseg_des.vhd:83]
+WARNING: [Synth 8-614] signal 'VALID' is read in the process but is not in the sensitivity list [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Lab1_Provided_Code/sseg_des.vhd:80]
+INFO: [Synth 8-226] default block is never used [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Lab1_Provided_Code/sseg_des.vhd:117]
+INFO: [Synth 8-256] done synthesizing module 'sseg_des' (9#1) [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/imports/Lab1_Provided_Code/sseg_des.vhd:54]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (10#1) [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/sources_1/new/Top.sv:23]
+WARNING: [Synth 8-3331] design Top has unconnected port led[14]
+WARNING: [Synth 8-3331] design Top has unconnected port led[13]
+WARNING: [Synth 8-3331] design Top has unconnected port led[12]
+WARNING: [Synth 8-3331] design Top has unconnected port led[11]
+WARNING: [Synth 8-3331] design Top has unconnected port led[10]
+WARNING: [Synth 8-3331] design Top has unconnected port led[9]
+WARNING: [Synth 8-3331] design Top has unconnected port led[8]
+WARNING: [Synth 8-3331] design Top has unconnected port led[7]
+WARNING: [Synth 8-3331] design Top has unconnected port led[6]
+WARNING: [Synth 8-3331] design Top has unconnected port led[5]
+WARNING: [Synth 8-3331] design Top has unconnected port led[4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 783.258 ; gain = 241.266
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 783.258 ; gain = 241.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 783.258 ; gain = 241.266
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/constrs_1/imports/Brandon Kwe/Basys3_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'dp'. [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/constrs_1/imports/Brandon Kwe/Basys3_Master.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/constrs_1/imports/Brandon Kwe/Basys3_Master.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'dp'. [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/constrs_1/imports/Brandon Kwe/Basys3_Master.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/constrs_1/imports/Brandon Kwe/Basys3_Master.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/constrs_1/imports/Brandon Kwe/Basys3_Master.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/constrs_1/imports/Brandon Kwe/Basys3_Master.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/constrs_1/imports/Brandon Kwe/Basys3_Master.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/constrs_1/imports/Brandon Kwe/Basys3_Master.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/constrs_1/imports/Brandon Kwe/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.srcs/constrs_1/imports/Brandon Kwe/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 906.664 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 906.664 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 906.664 ; gain = 364.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 906.664 ; gain = 364.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 906.664 ; gain = 364.672
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "SEGMENTS" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 906.664 ; gain = 364.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
+	   3 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---RAMs : 
+	              256 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 3     
+	  16 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Top 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+Module mux2to1x4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module countUD4L 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
+	   3 Input      1 Bit         XORs := 1     
+Module reg_file 
+Detailed RTL Component Info : 
++---RAMs : 
+	              256 Bit         RAMs := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+Module clk_div 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module sseg_des 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	  16 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "Display/" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-3331] design Top has unconnected port led[14]
+WARNING: [Synth 8-3331] design Top has unconnected port led[13]
+WARNING: [Synth 8-3331] design Top has unconnected port led[12]
+WARNING: [Synth 8-3331] design Top has unconnected port led[11]
+WARNING: [Synth 8-3331] design Top has unconnected port led[10]
+WARNING: [Synth 8-3331] design Top has unconnected port led[9]
+WARNING: [Synth 8-3331] design Top has unconnected port led[8]
+WARNING: [Synth 8-3331] design Top has unconnected port led[7]
+WARNING: [Synth 8-3331] design Top has unconnected port led[6]
+WARNING: [Synth 8-3331] design Top has unconnected port led[5]
+WARNING: [Synth 8-3331] design Top has unconnected port led[4]
+WARNING: [Synth 8-3332] Sequential element (state_machine/Q0_FF) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (state_machine/Q1_FF) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (addr_dec/Q0_FF) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (addr_dec/Q1_FF) is unused and will be removed from module Top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 906.664 ; gain = 364.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-----------------+-----------+----------------------+--------------+
+|Module Name | RTL Object      | Inference | Size (Depth x Width) | Primitives   | 
++------------+-----------------+-----------+----------------------+--------------+
+|Top         | RF/register_reg | Implied   | 16 x 16              | RAM32M x 6   | 
++------------+-----------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 906.664 ; gain = 364.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 906.664 ; gain = 364.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+-----------------+-----------+----------------------+--------------+
+|Module Name | RTL Object      | Inference | Size (Depth x Width) | Primitives   | 
++------------+-----------------+-----------+----------------------+--------------+
+|Top         | RF/register_reg | Implied   | 16 x 16              | RAM32M x 6   | 
++------------+-----------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 906.664 ; gain = 364.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 909.121 ; gain = 367.129
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 909.121 ; gain = 367.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 909.121 ; gain = 367.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 909.121 ; gain = 367.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 909.121 ; gain = 367.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 909.121 ; gain = 367.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     2|
+|4     |LUT2   |    24|
+|5     |LUT4   |    18|
+|6     |LUT5   |    18|
+|7     |LUT6   |     7|
+|8     |RAM32M |     6|
+|9     |FDRE   |    48|
+|10    |IBUF   |    21|
+|11    |OBUF   |    16|
+|12    |OBUFT  |    11|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+---------------+------+
+|      |Instance          |Module         |Cells |
++------+------------------+---------------+------+
+|1     |top               |               |   180|
+|2     |  Display         |sseg_des       |    60|
+|3     |    my_clk        |clk_div        |    52|
+|4     |  RF              |reg_file       |    49|
+|5     |  SM_input        |edgeDetector   |     3|
+|6     |  reset           |edgeDetector_0 |     3|
+|7     |  write           |edgeDetector_1 |     2|
+|8     |  write_addr      |countUD4L      |     6|
+|9     |  write_addr_load |edgeDetector_2 |     6|
++------+------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 909.121 ; gain = 367.129
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 15 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 909.121 ; gain = 243.723
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 909.121 ; gain = 367.129
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 923.129 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 34 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 923.129 ; gain = 622.906
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 923.129 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Brandon Kwe/CPE426/Trojan/Trojan.runs/synth_1/Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_utilization_synth.rpt -pb Top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 16 23:32:07 2022...
